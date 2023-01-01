@@ -1,1 +1,1 @@
-export class MyMainClass {}
+export * from './components'
