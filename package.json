@@ -4,7 +4,9 @@
   "license": "MIT",
   "source": "src/index.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@diego-sbtlab"
+    "registry": "https://npm.pkg.github.com/@diego-sbtlab",
+    "source": "src/index.ts",
+    "main": "dist/index.js"
   },
   "exports": {
     "require": "./dist/index.cjs",
@@ -13,7 +15,6 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
-  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/react": "^18.0.26",
     "microbundle": "^0.15.1",
@@ -22,6 +23,11 @@
   },
   "scripts": {
     "dev": "microbundle watch",
-    "build": "microbundle"
-  }
+    "build": "microbundle src/index.ts"
+  },
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ]
 }
