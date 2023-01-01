@@ -1,5 +1,5 @@
 {
-  "name": "pack",
+  "name": "@diego-sbtlab/pack",
   "version": "1.0.1",
   "license": "MIT",
   "source": "src/index.ts",
