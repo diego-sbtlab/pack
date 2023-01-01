@@ -1,6 +1,6 @@
 {
   "name": "@diego-sbtlab/pack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "source": "src/index.ts",
   "publishConfig": {
