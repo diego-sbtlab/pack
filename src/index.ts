@@ -1,3 +1,3 @@
 export default () => {
-    return 'A terra é plana'
+    return 'A terra é plana 2'
 }
