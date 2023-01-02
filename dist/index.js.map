@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../src/components/Button/Button.ts"],"sourcesContent":["\nconst Button = () => {\n    return 'A terra é plana'\n}\nexport default Button\n"],"names":[],"mappings":"eACe,WACX,MAAO,iBACX"}

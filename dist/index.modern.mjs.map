@@ -1,1 +1,0 @@
-{"version":3,"file":"index.modern.mjs","sources":["../src/components/Button/Button.ts"],"sourcesContent":["\nconst Button = () => {\n    return 'A terra é plana'\n}\nexport default Button\n"],"names":["Button"],"mappings":"AACMA,MAAAA,EAAS,IACJ"}
