@@ -1,2 +1,2 @@
-var r=function(){return"A terra é plana"};export{r as Button};
+var a=function(){return"A terra é plana 2"};export{a as default};
 //# sourceMappingURL=index.module.js.map

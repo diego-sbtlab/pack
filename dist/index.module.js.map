@@ -1,1 +1,1 @@
-{"version":3,"file":"index.module.js","sources":["../src/components/Button/Button.ts"],"sourcesContent":["\nconst Button = () => {\n    return 'A terra é plana'\n}\nexport default Button\n"],"names":["Button"],"mappings":"AACMA,IAAAA,EAAS,WACX,MAAO,iBACX"}
+{"version":3,"file":"index.module.js","sources":["../src/index.ts"],"sourcesContent":["export default () => {\n    return 'A terra é plana 2'\n}\n"],"names":["index"],"mappings":"AAAA,IAAAA,EAAA,WACI,MAAO,mBACV"}

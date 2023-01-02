@@ -1,1 +1,1 @@
-{"version":3,"file":"index.umd.js","sources":["../src/components/Button/Button.ts"],"sourcesContent":["\nconst Button = () => {\n    return 'A terra é plana'\n}\nexport default Button\n"],"names":[],"mappings":"uOACe,WACX,MAAO,iBACX"}
+{"version":3,"file":"index.umd.js","sources":["../src/index.ts"],"sourcesContent":["export default () => {\n    return 'A terra é plana 2'\n}\n"],"names":[],"mappings":"mFAAA,WACI,MAAO,mBACV,iEAFD,WACI,MAAO,mBACV,+DAFD,WACI,MAAO,mBACV"}
