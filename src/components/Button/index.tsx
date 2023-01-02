@@ -27,7 +27,7 @@ interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
-const Button = ({
+const ButtonWrapper = ({
                            primary = false,
                            size = 'medium',
                            backgroundColor,
@@ -46,4 +46,4 @@ const Button = ({
         </button>
     );
 };
-export { Button }
+export { ButtonWrapper as Button }
