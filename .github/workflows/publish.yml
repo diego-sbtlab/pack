@@ -16,7 +16,6 @@ jobs:
           scope: '@diego-sbtlab'
       - run: npm install
       - run: |
-          npm login --registry=https://npm.pkg.github.com/ --scope=@diego-sbtlab --always-auth
-          npm publish --registry=https://npm.pkg.github.com/
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
